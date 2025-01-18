@@ -35,6 +35,10 @@ main {
   color: #22d4fd;
 }
 
+.main-text__image {
+  display: none;
+}
+
 .main-text p {
   font-size: 1.5rem;
   text-align: justify;
@@ -58,4 +62,103 @@ main {
 
 .main-text__links a:hover {
   background-color: #1a9cb7;
+}
+
+@media (max-width: 1024px) {
+  .main-text {
+    max-width: 400px;
+  }
+
+  .main-text h1 {
+    font-size: 1.25rem;
+  }
+
+  .main-text p {
+    font-size: 1rem;
+  }
+
+  .main-text__links {
+    gap: 20px;
+  }
+
+  .main-text__links a {
+    padding: 15px 0;
+    width: 100%;
+  }
+
+  .main-image {
+    max-width: 340px;
+  }
+
+  .main-image img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-text {
+    gap: 20px;
+  }
+
+  .main-text h1 {
+    font-size: 1.25rem;
+  }
+
+  .main-text p {
+    font-size: 1rem;
+  }
+
+  .main-text__links a {
+    padding: 15px 0;
+    width: 100%;
+  }
+
+  .main-image {
+    max-width: 240px;
+  }
+
+  .main-image img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-text {
+    max-width: 280px;
+  }
+
+  body {
+    font-size: 1rem;
+  }
+
+  .main-text h1 {
+    font-size: 1rem;
+  }
+
+  .main-text__image {
+    display: flex;
+  }
+
+  .main-text__image img {
+    display: flex;
+    width: 100%;
+  }
+
+  .main-text p {
+    font-size: 0.75rem;
+  }
+
+  .main-text__links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .main-text__links a {
+    padding: 10px 0;
+    font-size: 0.75rem;
+  }
+
+  .main-image {
+    display: none;
+  }
 }
