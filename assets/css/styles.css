@@ -1,11 +1,8 @@
 /* Geral */
 :root {
-  --color-white: #fff;
-  --color-black: #000;
   --color-primary: #22d4fd;
   --color-secondary: #7d7d7d;
-  --color-tertiary: #2f2f2f;
-  --color-quaternary: rgba(255, 255, 255, 0.2);
+  --color-tertionary: #fff;
 }
 
 * {
@@ -18,8 +15,8 @@ body {
   font-family: "Montserrat", Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
-  color: var(--color-white);
-  background-color: var(--color-black);
+  color: var(--color-tertionary);
+  background-color: #000;
   height: 100vh;
 }
 
@@ -112,7 +109,7 @@ header nav ul li {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  color: var(--color-white);
+  color: var(--color-tertionary);
   text-decoration: none;
   font-weight: 600;
   padding: 15px 0;
@@ -121,7 +118,7 @@ header nav ul li {
 }
 
 .hero-content a:hover {
-  background-color: var(--color-tertiary);
+  background-color: #2f2f2f;
   transform: scale(1.03);
   transition: 0.3s;
 }
@@ -143,7 +140,7 @@ header nav ul li {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  border-top: 1px solid var(--color-quaternary);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .footer p {
